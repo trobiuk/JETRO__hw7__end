@@ -1,0 +1,114 @@
+@media(max-width: 920px) {
+    .recent-works {
+        margin-bottom: 20px;
+    }
+    .recent-works__inner {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .recent-works__item {
+        margin: 0 42px 30px;
+    }
+}
+
+@media(max-width: 880px) {
+    .slider__main .slick-btn {
+        display: none !important;
+    }
+    .about__item {
+        padding-left: 12px;
+    }
+    .about__text {
+        font-size: 14px;
+    }
+    .footer__item-text {
+        line-height: 16px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 770px) {
+    .recent-works__inner {
+        justify-content: space-evenly;
+    }
+    .recent-works__item {
+        margin: 15px;
+    }
+}
+
+@media(max-width:740px) {
+    .about {
+        margin-bottom: 0;
+    }
+    .about__items {
+        display: block;
+    }
+    .about__item {
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+    .about__title {
+        min-height: 50px;
+    }
+}
+
+@media(max-width: 680px) {
+    .slider__main-item-content {
+        max-width: 100%;
+        max-height: 50%;
+        left: 0;
+        bottom: 0;
+    }
+}
+
+@media(max-width: 630px) {
+    .footer__inner {
+        display: block;
+    }
+    .footer__item {
+        max-width: 100%;
+    }
+    .footer__item-text ul {
+        text-align: center;
+    }
+}
+
+@media(max-width: 560px) {
+    .header__btn-menu {
+        display: inline-block;
+    }
+    .header__menu ul {
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 50;
+        margin-top: 20px;
+    }
+    .header__menu li {
+        display: block;
+        text-align: center;
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .header__menu a {
+        display: block;
+        background: rgba(232, 102, 60, .9);
+        border-bottom: 2px solid #fff;
+    }
+    .header__menu a:hover {
+        color: red
+    }
+    .header__menu ul li {
+        margin-left: 0;
+    }
+    .slider__main-item-content {
+        min-height: 100%;
+    }
+}
+
+@media(min-width: 561px) {
+    .header__menu ul {
+        display: block !important;
+    }
+}
